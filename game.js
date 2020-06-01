@@ -51,6 +51,15 @@ $(document).on("keypress" , function() {
   }
 });
 
+// STARTING THE GAME ON MOBILE
+$("h2").on("click" , function() {
+  if (! started) {
+    $("h1").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+});
+
 
 // PLAYING SOUND
 function playSound(name) {
