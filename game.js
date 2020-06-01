@@ -1,6 +1,4 @@
-// CREATING AN ALERT
-alert("If you are using mobile, try starting and restarting your game with the start game button");
-
+alert("If you are using mobile phone please use the 'start game' button for starting and restarting the game ");
 
 // DECLARING VARIABLE
 var level = 0;
